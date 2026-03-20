@@ -1,0 +1,47 @@
+# SF Housing Profile
+
+## Design Context
+
+### Users
+
+Landlords and property managers in San Francisco's Mission District evaluating a rental applicant. They're scanning quickly — often reviewing many applications — and need to build trust and confidence fast. The page should immediately communicate that this person is responsible, established, and a great tenant. Think of it as a personal portfolio that happens to serve a rental application.
+
+### Brand Personality
+
+**Warm, Polished, Trustworthy**
+
+The voice is confident but never boastful, personal but never oversharing. It reads like someone you'd trust with your property — thoughtful, put-together, and genuinely likable. The tone is conversational enough to feel human, but refined enough to feel intentional.
+
+### Aesthetic Direction
+
+**Move away from the current Notion-doc feel** toward a distinctive, contemporary personal site with real visual interest and personality.
+
+- **Style**: Modern, editorial, tactile — closer to a tasteful personal portfolio than a document
+- **Color**: Soft accent color (muted blue, green, or gold) paired with warm neutrals; avoid stark white or cold grays
+- **Typography**: Retain the serif/sans pairing concept but consider fresher options; ensure clear hierarchy
+- **Layout**: Break the monotonous single-column with intentional variety — cards, asymmetry, whitespace as a design element
+- **Photography**: The existing photos should feel integrated into the design, not just dropped in
+- **Theme**: Light mode only
+- **References**: Tasteful personal portfolio sites — custom, intentional, memorable
+- **Anti-references**: Not corporate or overly formal. Not flashy or gimmicky (no gratuitous animations). Not a generic template. Not tech-bro intimidating. Not too sparse or empty.
+
+### Design Principles
+
+1. **Trust through craft** — Every detail should signal care and reliability. Pixel-perfect alignment, considered spacing, and polished interactions tell the viewer: this person pays attention.
+
+2. **Personal, not generic** — The design should feel custom-built for this specific person and purpose. No template energy. Unique touches that make it unmistakably intentional.
+
+3. **Warmth with substance** — Approachable but not lightweight. Polished but not corporate. The design carries real content and presents it with warmth, not just empty aesthetics.
+
+4. **Visual rhythm** — Break monotony with intentional layout variety. Use cards, spacing changes, and compositional shifts to create a page that rewards scrolling and feels dynamic.
+
+5. **Quiet confidence** — Let quality speak without flashy gimmicks. The design should feel assured and understated — impressive because of its craft, not its volume.
+
+### Technical Context
+
+- **Stack**: React 19 + TypeScript + Vite, vanilla CSS with custom properties
+- **Deployment**: GitHub Pages via GitHub Actions
+- **Current tokens**: 6 CSS custom properties in `src/styles/global.css` (colors, fonts)
+- **Fonts**: Cormorant Garamond (display), DM Sans (body) via Google Fonts
+- **Breakpoint**: Single responsive breakpoint at 600px
+- **No component library** — pure custom CSS, no Tailwind/MUI/etc.
