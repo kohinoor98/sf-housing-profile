@@ -1,0 +1,84 @@
+.page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 80px 24px 120px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: var(--text);
+}
+
+.photo {
+  margin-bottom: 48px;
+}
+
+.photo img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 4px;
+}
+
+.section {
+  margin-bottom: 48px;
+}
+
+.section h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.section p {
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.section ul {
+  margin: 0 0 12px 20px;
+  color: var(--text);
+}
+
+.section li {
+  margin-bottom: 8px;
+}
+
+.headshot {
+  margin-bottom: 12px;
+}
+
+.headshot img {
+  width: 120px;
+  height: 120px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.resume-link {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.sub-heading {
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 48px 20px 80px;
+  }
+
+  .photo img {
+    max-width: 100%;
+  }
+}
